@@ -3,10 +3,19 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 300px;
+  min-height: 200px;
   background-color: #000;
 }
 
 .footer-icon {
   width: 50%;
+}
+
+.is-link {
+  cursor: pointer;
+}
+
+.footer-img-wrapper {
+  display: flex;
+  justify-content: center;
 }

@@ -2,6 +2,7 @@
 .page-container-flex-col {
   display: flex;
   flex-direction: column;
+  background-color: #191919;
 }
 
 /* -------- WIDTHS & HEIGHTS --------- */
