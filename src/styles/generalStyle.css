@@ -1,0 +1,28 @@
+/* -------- CONTAINERS ------------ */
+.page-container-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------- WIDTHS & HEIGHTS --------- */
+.width-100-percent {
+  width: 100%;
+}
+
+.height-100-vh {
+  height: 100vh;
+}
+
+/* -------- HEADER SECTION --------- */
+
+/* -------- IMAGES --------- */
+
+/* -------- TEXT --------- */
+.stnd-h1 {
+  font-size: 1.3rem;
+}
+
+/* -------- OTHER --------- */
+.top-banner {
+  position: fixed;
+}
