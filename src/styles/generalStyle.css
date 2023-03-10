@@ -16,6 +16,9 @@
 /* -------- HEADER SECTION --------- */
 
 /* -------- IMAGES --------- */
+.top-banner-img {
+  width: 100%;
+}
 
 /* -------- TEXT --------- */
 .stnd-h1 {
@@ -23,6 +26,6 @@
 }
 
 /* -------- OTHER --------- */
-.top-banner {
+.top-banner-img {
   position: fixed;
 }
