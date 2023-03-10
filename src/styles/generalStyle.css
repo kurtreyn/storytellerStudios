@@ -25,7 +25,9 @@
   font-size: 1.3rem;
 }
 
-/* -------- OTHER --------- */
-.top-banner-img {
-  position: fixed;
+/* -------- MARGINS & PADDING --------- */
+.margin-0 {
+  margin: 0;
 }
+
+/* -------- MEDIA QUERIES --------- */
