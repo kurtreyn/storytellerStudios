@@ -17,6 +17,11 @@
   outline: solid 1px white;
 }
 
+.carousel-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* -------- WIDTHS, HEIGHTS & PADDING --------- */
 .width-100-percent {
   width: 100%;

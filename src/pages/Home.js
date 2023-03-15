@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import Footer from '../components/Footer/Footer';
 import PosterContainer from '../components/PosterContainer/PosterContainer';
-import ImageSlider from '../components/ImageSlider/ImageSlider';
+import CarouselComponent from '../components/Carousel/CarouselComponent';
 import '../styles/generalStyle.css';
 
 import banner from '../assets/images/banner.png';
@@ -24,16 +24,18 @@ export default function Home() {
         <h1 className="stnd-h1 color-white">Storyteller Studios</h1>
       </div>
       <div className="main-content">
-        <div className="row flex-row-center width-100-percent padding-2-percent">
+        <div className="row flex-row-center">
           {tempData.map((item) => {
             return <PosterContainer key={item.id} image={item.poster_image} />;
           })}
         </div>
-        <div className="row">
+        <div className="row carousel-section">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <ImageSlider />
+            <CarouselComponent />
           </div>
-          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <p className="color-white">Welcome to Storyteller Studios</p>
+          </div>
         </div>
       </div>
       <Footer />
