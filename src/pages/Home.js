@@ -7,8 +7,8 @@ import '../styles/generalStyle.css';
 
 import banner from '../assets/images/banner.png';
 
-import { tempData } from '../data/tempData';
-import { PAGE_CONTENT as content } from '../data/content';
+import { tempData } from '../global/tempData';
+import { PAGE_CONTENT as content } from '../global/content';
 
 export default function Home() {
   return (

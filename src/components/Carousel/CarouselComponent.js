@@ -8,7 +8,7 @@ import ghostJeep from '../../assets/images/ghost-jeep.png';
 
 export default function CarouselComponent() {
   return (
-    <Carousel className="carousel-container">
+    <Carousel className="carousel-container" controls={false}>
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={greyAmbulance} alt="First slide" />
       </Carousel.Item>
