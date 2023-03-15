@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   border-bottom: solid 1px #fff;
   align-items: flex-end;
   justify-content: flex-end;
@@ -19,4 +19,10 @@
   margin-left: 5px;
   margin-right: 5px;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #ccc;
+  cursor: pointer;
 }

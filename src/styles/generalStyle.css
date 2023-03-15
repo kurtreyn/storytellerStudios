@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: #191919;
+  padding: 0;
 }
 
 .main-content {
@@ -14,12 +15,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: solid 1px white;
+  /* outline: solid 1px orange; */
+}
+
+.poster-section {
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 .carousel-section {
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 40px;
+  padding: 20px;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-text-area {
+  width: 40%;
 }
 
 /* -------- WIDTHS, HEIGHTS & PADDING --------- */
@@ -60,7 +78,12 @@
 
 /* -------- TEXT --------- */
 .stnd-h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+
+.stnd-text {
+  font-weight: 200;
+  font-size: 1rem;
 }
 
 .color-white {
@@ -73,6 +96,17 @@
 }
 .margin-top-10 {
   margin-top: 10px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
 }
 
 .margin-bottom-10 {
