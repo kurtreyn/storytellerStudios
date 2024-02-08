@@ -19,9 +19,9 @@ export const auth = getAuth();
 export const storage = getStorage(app);
 // init services
 export const db = getFirestore();
-export const featureProdRef = collection(db, 'featured_product');
+export const postRef = collection(db, 'posts');
 
-export const featuredProdRefQuery = query(
-  collection(db, 'feautred_product'),
+export const postRefQuery = query(
+  collection(db, 'posts'),
   orderBy('createdAt', 'desc')
 );
